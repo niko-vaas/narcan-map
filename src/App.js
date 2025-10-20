@@ -61,7 +61,7 @@ export default function NarcanMapApp() {
   const [markerData, setMarkerData] = useState([]);
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/data/od_deaths_detailed_2020_2021.csv')
+    fetch('/data/od_deaths_detailed_2020_2021.csv')
       .then(res => res.text())
       .then(csvText => {
         Papa.parse(csvText, {
