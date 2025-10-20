@@ -2,7 +2,7 @@
   "name": "narcan-map",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://niko-vaas.github.io/narcan-map",
+  "homepage": "https://hinderd-map.netlify.app/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
